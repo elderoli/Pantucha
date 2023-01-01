@@ -1,0 +1,261 @@
+@viewport {
+    width: 100vw;
+}
+a {
+    color: black;
+    text-decoration: none;
+}
+
+@import url('https://fonts.googleapis.com/css2?family=Roboto:wght@300&display=swap');
+
+.navegador{
+    font-family: Verdana, Geneva, Tahoma, sans-serif;
+    font-size: 22px;
+    box-sizing: content-box;
+    border-radius: 8px;
+    margin-left: 15px;
+    margin-right: 15px;
+    display: inline-block;
+}
+.inicial{
+    float: left;
+    position: static;
+    height: initial;
+    height: 10vh;
+    margin-top: 3vh;
+    margin-left: 5vh;
+}
+
+.navegador:hover{
+    border-radius: 8px;
+    background-color: black;
+    color: white;
+}
+
+.navegacao{
+    color:black;
+    font-size: 30px;
+    background-color: #B8D8D8;
+    width: 100%;
+    height: 100px;
+    text-align: center;
+    padding-top: 1px;
+    display: inline-block;
+    }
+
+
+.corpo{
+    padding-top: 12px;
+
+}
+
+.divesquerda{
+
+    color:black;
+    font-weight: bold;
+    padding-top: 2vh;
+    font-family:Arial, Helvetica, sans-serif;
+    width: 50vh;
+    height: 25vh;
+    text-align:center;
+    background-color: #d7263886;
+    border-radius: 8px;
+    line-height: 3.5vh;
+    margin-bottom: 5vh;
+    }
+.divdireita{
+
+    width:49%;
+    height:30vh;
+    left:300px;
+
+    }
+
+    .demonstracao{
+        width:100%;
+        height:100%;
+    }
+
+    #vant{
+        padding-top: 1px;
+    }
+
+    #comofunciona{
+        margin: auto;
+    }
+
+    .vantagens{
+        display: inline-block;
+    }
+    .vantagem1{
+    position:static;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 30vh;
+    height: 20vh;
+    flex: 1;
+    border-radius: 8px;
+    background-color: rgb(127, 204, 255);
+    text-align: center;
+    padding: 2vh;
+    }
+    .vantagem2{
+    position:static;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 30vh;
+    height: 20vh;
+    flex: 1;
+    border-radius: 8px;
+    background-color: rgb(157, 255, 127);
+    text-align: center;
+    padding: 2vh;
+    }
+    .vantagem3{
+    position:static;
+    font-family:'Segoe UI', Tahoma, Geneva, Verdana, sans-serif;
+    width: 30vh;
+    height: 20vh;
+    flex: 1;
+    border-radius: 8px;
+    background-color: rgb(255, 127, 127);
+    text-align: center;
+    padding: 2vh;
+    }
+
+    body{
+        width: 100%;
+    }
+
+    h1{
+        font-family: 'Roboto', sans-serif;
+        padding-top: 15px;
+    }
+    h2{
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+    h3{
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+    h4{
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+
+    .p{
+        font-family: 'Roboto', sans-serif;
+        text-align: center;
+    }
+    .plano{
+        text-decoration: underline;
+    }
+    .explica{
+        font-size: 2vh;
+        text-align: center;
+        text-justify: distribute;
+    }
+
+    .planos{
+        display:inline-block;
+    }
+
+    .plansdetail{
+        border-style: solid ;
+        border-width: 2PX;
+        border-color: black;
+        width: 32vh;
+        height: auto;
+        text-align: center;
+        vertical-align: middle;
+        display:inline-block;
+        background-color: #1B998B;
+        color: white;
+        
+    } 
+
+    .passoapasso{
+        padding-top: 10px;
+        
+    }
+
+    .exemplo1{
+        width: 250px;
+        height: 250px;
+        border-radius: 8px;
+        display: flex;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+    .exemplo2{
+        width: 400px;
+        height: 300px;
+        border-radius: 8px;
+        display: flex;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+    .exemplo3{
+        width: 400px;
+        height: 300px;
+        border-radius: 8px;
+        display: flex;
+        margin: auto;
+        padding-bottom: 50px;
+    }
+
+    .contatos{
+        width: 4vh;
+        padding-left: 5vh;
+        padding-top: 1vh;
+    }
+    .contato{
+        text-align: left;
+        padding-left: 5vh;
+    }
+/*DIMENSIONAMENTO*/
+@media screen and (max-width: 765px) {
+    body {
+      height: 100%;
+      width: 100%;
+    }
+    .plansdetail{
+        border-style: solid ;
+        border-width: 2PX;
+        border-color: black;
+        width: 32vh;
+        height: auto;
+        text-align: center;
+        display:inline-block;
+        background-color: #1B998B;
+        color: white;
+        
+    } 
+    .navegacao{
+        color:black;
+        font-size: 25px;
+        background-color: #B8D8D8;
+        width: 100%;
+        height: auto;
+        justify-content: space-around;
+        text-align: justify;
+        padding-top: 1px;
+        display: inline-block;
+        }
+        .navegador{
+            font-family: Verdana, Geneva, Tahoma, sans-serif;
+            font-size: 22px;
+            box-sizing: content-box;
+            text-align: justify;
+            border-radius: 8px;
+            margin-left: 15px;
+            margin-right: 15px;
+            display: inline-block;
+        }
+}
+footer{
+  background-color: #B8D8D8;
+  color:black;
+  margin-top: 5vh;
+  padding-top: 20px;
+  padding-bottom: 20px;
+}
